@@ -85,7 +85,7 @@ header {
 main {
   width: ;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -102,16 +102,19 @@ main {
   height: auto;
   justify-content: center;
   margin: 10px 0 10px 0;
+  width: 500px;
 }
 
-.links > a {
-  text-decoration: none;
-  line-height: 100%;
-  color: rgb(110, 101, 101);
+.links-ul {
+  
+}
+
+.links-ul-li {
+  display: inline-block;
   margin: 0 10px 0 0;
 }
 
-.links > a > img {
+.links-ul-li > a > img {
   height: 25px;
 }
 
@@ -120,6 +123,14 @@ form {
 }
 
 .form-elements {
-  height: 640px;
-  width: 348px;
+  flex-direction: column;
+  align-items: center;
+  height: 670px;
+  width: 378px;
+  background-color: white;
+  padding: 30px;
+}
+
+.form-elements > p {
+  font-size: 14px;
 }

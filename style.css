@@ -1,0 +1,79 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  padding: 1rem 3rem;
+  box-sizing: border-box;
+  background-color: #ECEEF1;
+  font-family: 'Roboto', sans-serif;
+}
+
+.border {
+  border: 1px solid #000;
+}
+
+.flex {
+  display: flex;
+}
+
+header {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.sign-in {
+  flex-direction: row;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+
+}
+
+.sign-in-text {
+  flex-direction: column;
+  margin: 0 1rem 0 0;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.sign-in-text > p {
+  color: #000;
+}
+
+.sign-in-text > a {
+  color: #0077C5;
+}
+
+.btn-sign-in{
+  align-self: center;
+  text-align: center;
+  background-color: #0077C5;
+  padding: 0 0 0 1rem;
+  border: .1rem solid #000;
+  border-radius: .5rem;
+  color: white;
+  font-weight: 700;
+  width: 10rem;
+  height: 3.5rem;
+  background-image: url(assest/image/lock.png);
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  background-position:17% 50%;
+}

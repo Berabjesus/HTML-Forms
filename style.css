@@ -27,12 +27,14 @@ body {
 }
 
 .border {
-  border: 1px solid #000;
+  border: 2px solid #000;
 }
 
 .flex {
   display: flex;
 }
+
+/* Header portion */
 
 header {
   flex-direction: row;
@@ -61,7 +63,7 @@ header {
   color: #0077C5;
 }
 
-.btn-sign-in{
+.btn-sign-in {
   align-self: center;
   text-align: center;
   background-color: #0077C5;
@@ -76,4 +78,48 @@ header {
   background-repeat: no-repeat;
   background-size: 1rem;
   background-position:17% 50%;
+}
+
+/* Main portion */
+
+main {
+  width: ;
+  flex-direction: column;
+  align-content: center;
+}
+
+.logo {
+  height: 70px;
+  padding: 20px 0;
+  justify-content: center;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.links {
+  height: auto;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+}
+
+.links > a {
+  text-decoration: none;
+  line-height: 100%;
+  color: rgb(110, 101, 101);
+  margin: 0 10px 0 0;
+}
+
+.links > a > img {
+  height: 25px;
+}
+
+form {
+  justify-content: space-around;
+}
+
+.form-elements {
+  height: 640px;
+  width: 348px;
 }

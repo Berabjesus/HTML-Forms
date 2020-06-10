@@ -20,7 +20,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  padding: 1rem 3rem;
+  padding: 1rem 0 0 0;
   box-sizing: border-box;
   background-color: #ECEEF1;
   font-family: Arial , sans-serif;
@@ -34,6 +34,9 @@ body {
   display: flex;
 }
 
+.container {
+  padding: 0 3rem 0 0;
+}
 /* Header portion */
 
 header {
@@ -81,7 +84,7 @@ header {
   cursor: pointer;
 }
 
-.btn-sign-in span{
+.btn-sign-in span {
   display: inline-block;
   margin-left: .8rem;
 }
@@ -119,6 +122,9 @@ main {
   height: 25px;
 }
 
+.links-ul-li > a {
+  color: rgb(56, 105, 103);
+}
 /* Form */
 
 .form-section {
@@ -168,7 +174,7 @@ main {
   margin-bottom: .6rem;
 }
 
-.input-container > span{
+.input-container > span {
   color: #444;
   font-size: 1rem;
 }
@@ -183,7 +189,7 @@ main {
   color: black;
 }
 
-.password-input{
+.password-input {
   background-image: url(assest/image/open-lock.png);
   background-size: 20px;
   background-repeat: no-repeat;
@@ -229,4 +235,43 @@ input[type="submit"] {
   text-align: center;
   font-size: 10px;
   color: lightseagreen;
+}
+
+footer {
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0 0 0;
+}
+
+.footer-links > a {
+  text-decoration: none;
+  color: #167CCC;
+  font-size: 12px;
+  margin: 0 0 0 15px;
+}
+
+.footer-info {
+  width: 50%;
+  font-size: 12px;
+  color: rgb(56, 105, 103);
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+.privacy {
+  background-color: #6B6C72;
+  width: 135px;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+
+.privacy > p {
+  line-height: 40px;
+  text-align: center;
+  color: white;
 }

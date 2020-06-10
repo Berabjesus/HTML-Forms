@@ -9,21 +9,21 @@
 </head>
 <body>
     <div class="container">
-        <header class="flex border">
+        <header class="flex">
             <div class="sign-in flex">
                 <div class="sign-in-text flex">
                   <p>Already have an Intuit account?</p>
                   <a href="#">I forget my User ID or Password</a>
                 </div>
-                <button class="btn-sign-in">Sign In</button>
+                <button class="btn-sign-in"><span>Sign In</span></button>
             </div>
         </header>
 
-        <main class="border flex">
-            <div class="logo flex border">
+        <main class=" flex">
+            <div class="logo flex ">
               <a href="#"> <img src="./assest/image/logo.PNG" alt="logo"></a>
             </div>
-            <div class="links border flex">
+            <div class="links  flex">
                <ul class="links-ul flex">
                   <li class="links-ul-li">
                     <a href="#"><img src="./assest/mintsvg.svg" alt="mint"></a>
@@ -45,13 +45,30 @@
                   </li>
                </ul>
             </div>
-            <form class="flex" action="#">
-                <div class="form-elements flex border">
+            <section class="form-section flex">
+                <div class="form-elements flex">
                   <h2>Create an Intuit account</h2>
                   <p>One account for everything Intuit, including Mint.</p>
                   <a href="#">Learn more</a>
+                  <form action="#">
+                    <div class="input-container">
+                        <label for="">Email address</label>
+                        <input type="email">
+                    </div>
+                    <div class="input-container">
+                        <label for="">Phone (recommended)</label>
+                        <input type="email">
+                        <span>Standard call, messaging or data rates may apply.</span>
+                    </div>
+                    <div class="input-container">
+                        <label for="">Password</label>
+                        <input  class="password-input" type="email">   
+                    </div>
+                    <input type="submit" class="submit" value="Creat Account">
+                </form>
                 </div>
-            </form>
+                
+            </section>
         </main>
 
         <footer>

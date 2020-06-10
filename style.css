@@ -23,7 +23,7 @@ body {
   padding: 1rem 3rem;
   box-sizing: border-box;
   background-color: #ECEEF1;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial , sans-serif;
 }
 
 .border {
@@ -56,7 +56,7 @@ header {
 }
 
 .sign-in-text > p {
-  color: #000;
+  color:rgb(80, 80, 80);;
 }
 
 .sign-in-text > a {
@@ -67,23 +67,28 @@ header {
   align-self: center;
   text-align: center;
   background-color: #0077C5;
-  padding: 0 0 0 1rem;
-  border: .1rem solid #000;
+  padding: 0 2.5rem;
+  border: 1px solid #4c4c4c;
   border-radius: .5rem;
   color: white;
-  font-weight: 700;
-  width: 10rem;
-  height: 3.5rem;
+  font-weight: 300;
+  width: 10.4rem;
+  height: 3.4rem;
   background-image: url(assest/image/lock.png);
   background-repeat: no-repeat;
-  background-size: 1rem;
+  background-size: 1rem 1.3rem;
   background-position:17% 50%;
+  cursor: pointer;
+}
+
+.btn-sign-in span{
+  display: inline-block;
+  margin-left: .8rem;
 }
 
 /* Main portion */
 
 main {
-  width: ;
   flex-direction: column;
   align-items: center;
 }
@@ -105,10 +110,6 @@ main {
   width: 500px;
 }
 
-.links-ul {
-  
-}
-
 .links-ul-li {
   display: inline-block;
   margin: 0 10px 0 0;
@@ -118,9 +119,32 @@ main {
   height: 25px;
 }
 
-form {
-  justify-content: space-around;
+/* Form */
+
+.form-section {
+  border: c
 }
+
+.form-elements h2 {
+  color: #4C4C4C;
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 2.4 rem;
+}
+
+.form-elements > p {
+  font-size: 1.4rem;
+  line-height: 1.2;
+  font-weight: 300;
+  padding-top: 2rem;
+}
+
+.form-elements > a {
+  color: #0077C5;
+  font-size: 12px;
+  margin-bottom: 2rem;
+}
+
 
 .form-elements {
   flex-direction: column;
@@ -131,6 +155,51 @@ form {
   padding: 30px;
 }
 
-.form-elements > p {
-  font-size: 14px;
+.input-container:not(:last-child){
+  margin-bottom: 3rem;
+}
+
+.form-section label {
+  display: block;
+  line-height: 2.5rem;
+  color: #404040;
+  font-size: 1.4rem;
+  margin-bottom: .6rem;
+}
+
+.input-container > span{
+  color: #444;
+  font-size: 1rem;
+}
+
+.form-section input {
+  width: 32rem;
+  height: 3.4rem;
+  padding: 0 .7rem;
+  border-radius: .3rem;
+  border: 1px solid #C1C5C8;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.password-input{
+  background-image: url(assest/image/open-lock.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+}
+
+.form-section input:hover {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.submit {
+  display: block;
+  background-color: #167CCC;
+  color: white;
+  background-image: url(assest/image/lock.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  width: 317.5px;
+  height: 45px;
 }

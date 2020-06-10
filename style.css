@@ -22,8 +22,8 @@ body {
   font-size: 1.6rem;
   padding: 1rem 0 0 0;
   box-sizing: border-box;
-  background-color: #ECEEF1;
-  font-family: Arial , sans-serif;
+  background-color: #eceef1;
+  font-family: Arial, sans-serif;
 }
 
 .border {
@@ -37,6 +37,7 @@ body {
 .container {
   padding: 0 3rem 0 0;
 }
+
 /* Header portion */
 
 header {
@@ -48,7 +49,6 @@ header {
   flex-direction: row;
   font-size: 1.125rem;
   line-height: 1.5rem;
-
 }
 
 .sign-in-text {
@@ -59,20 +59,20 @@ header {
 }
 
 .sign-in-text > p {
-  color:rgb(80, 80, 80);;
+  color: rgb(80, 80, 80);
 }
 
 .sign-in-text > a {
-  color: #0077C5;
+  color: #0077c5;
 }
 
 .btn-sign-in {
   align-self: center;
   text-align: center;
-  background-color: #0077C5;
+  background-color: #0077c5;
   padding: 0 2.5rem;
   border: 1px solid #4c4c4c;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   color: white;
   font-weight: 300;
   width: 10.4rem;
@@ -80,13 +80,13 @@ header {
   background-image: url(assest/image/lock.png);
   background-repeat: no-repeat;
   background-size: 1rem 1.3rem;
-  background-position:17% 50%;
+  background-position: 17% 50%;
   cursor: pointer;
 }
 
 .btn-sign-in span {
   display: inline-block;
-  margin-left: .8rem;
+  margin-left: 0.8rem;
 }
 
 /* Main portion */
@@ -125,15 +125,16 @@ main {
 .links-ul-li > a {
   color: rgb(56, 105, 103);
 }
+
 /* Form */
 
 .form-section {
   flex-direction: column;
-  border: 1px solid #c7c7c7;;
+  border: 1px solid #c7c7c7;
 }
 
 .form-elements h2 {
-  color: #4C4C4C;
+  color: #4c4c4c;
   font-weight: 400;
   line-height: 1.1;
   font-size: 2.4 rem;
@@ -147,11 +148,10 @@ main {
 }
 
 .form-elements > a {
-  color: #0077C5;
+  color: #0077c5;
   font-size: 12px;
   margin-bottom: 2rem;
 }
-
 
 .form-elements {
   flex-direction: column;
@@ -162,7 +162,7 @@ main {
   padding: 30px;
 }
 
-.input-container:not(:last-child){
+.input-container:not(:last-child) {
   margin-bottom: 3rem;
 }
 
@@ -171,7 +171,7 @@ main {
   line-height: 2.5rem;
   color: #404040;
   font-size: 1.4rem;
-  margin-bottom: .6rem;
+  margin-bottom: 0.6rem;
 }
 
 .input-container > span {
@@ -182,9 +182,9 @@ main {
 .form-section input {
   width: 32rem;
   height: 3.4rem;
-  padding: 0 .7rem;
-  border-radius: .3rem;
-  border: 1px solid #C1C5C8;
+  padding: 0 0.7rem;
+  border-radius: 0.3rem;
+  border: 1px solid #c1c5c8;
   font-size: 1.2rem;
   color: black;
 }
@@ -201,7 +201,7 @@ main {
 }
 
 input[type="submit"] {
-  background-color: #167CCC;
+  background-color: #167ccc;
   color: white;
   font-size: 17px;
   background-image: url(assest/image/lock.png);
@@ -227,7 +227,7 @@ input[type="submit"] {
 .section-footer {
   width: 100%;
   height: 50px;
-  background-color: #ECEEF1;
+  background-color: #eceef1;
 }
 
 .section-footer > p {
@@ -246,7 +246,7 @@ footer {
 
 .footer-links > a {
   text-decoration: none;
-  color: #167CCC;
+  color: #167ccc;
   font-size: 12px;
   margin: 0 0 0 15px;
 }
@@ -260,7 +260,7 @@ footer {
 }
 
 .privacy {
-  background-color: #6B6C72;
+  background-color: #6b6c72;
   width: 135px;
   height: 40px;
   position: fixed;

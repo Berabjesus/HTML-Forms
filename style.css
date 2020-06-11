@@ -204,7 +204,7 @@ input[type="submit"] {
   background-color: #167ccc;
   color: white;
   font-size: 17px;
-  background-image: url(assest/image/lock.png);
+  background-image: url(media/image/lock.png);
   background-repeat: no-repeat;
   background-size: 15px;
   background-position: 27% center;
@@ -234,7 +234,7 @@ input[type="submit"] {
   line-height: 50px;
   text-align: center;
   font-size: 10px;
-  color: lightseagreen;
+  color: rgb(81, 167, 162);
 }
 
 footer {
@@ -246,7 +246,7 @@ footer {
 
 .footer-links > a {
   text-decoration: none;
-  color: #167ccc;
+  color: rgb(56, 105, 103);
   font-size: 12px;
   margin: 0 0 0 15px;
 }

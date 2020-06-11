@@ -1,0 +1,277 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  padding: 1rem 0 0 0;
+  box-sizing: border-box;
+  background-color: #eceef1;
+  font-family: Arial, sans-serif;
+}
+
+.border {
+  border: 2px solid #000;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  padding: 0 3rem 0 0;
+}
+
+/* Header portion */
+
+header {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.sign-in {
+  flex-direction: row;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.sign-in-text {
+  flex-direction: column;
+  margin: 0 1rem 0 0;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.sign-in-text > p {
+  color: rgb(80, 80, 80);
+}
+
+.sign-in-text > a {
+  color: #0077c5;
+}
+
+.btn-sign-in {
+  align-self: center;
+  text-align: center;
+  background-color: #0077c5;
+  padding: 0 2.5rem;
+  border: 1px solid #4c4c4c;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 300;
+  width: 10.4rem;
+  height: 3.4rem;
+  background-image: url(media/image/lock.png);
+  background-repeat: no-repeat;
+  background-size: 1rem 1.3rem;
+  background-position: 17% 50%;
+  cursor: pointer;
+}
+
+.btn-sign-in span {
+  display: inline-block;
+  margin-left: 0.8rem;
+}
+
+/* Main portion */
+
+main {
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  height: 70px;
+  padding: 20px 0;
+  justify-content: center;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.links {
+  height: auto;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+  width: 500px;
+}
+
+.links-ul-li {
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+
+.links-ul-li > a > img {
+  height: 25px;
+}
+
+.links-ul-li > a {
+  color: rgb(56, 105, 103);
+}
+
+/* Form */
+
+.form-section {
+  flex-direction: column;
+  border: 1px solid #c7c7c7;
+}
+
+.form-elements h2 {
+  color: #4c4c4c;
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 2.4 rem;
+}
+
+.form-elements > p {
+  font-size: 1.4rem;
+  line-height: 1.2;
+  font-weight: 300;
+  padding-top: 2rem;
+}
+
+.form-elements > a {
+  color: #0077c5;
+  font-size: 12px;
+  margin-bottom: 2rem;
+}
+
+.form-elements {
+  flex-direction: column;
+  align-items: center;
+  height: 620px;
+  width: 378px;
+  background-color: white;
+  padding: 30px;
+}
+
+.input-container:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.form-section label {
+  display: block;
+  line-height: 2.5rem;
+  color: #404040;
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.input-container > span {
+  color: #444;
+  font-size: 1rem;
+}
+
+.form-section input {
+  width: 32rem;
+  height: 3.4rem;
+  padding: 0 0.7rem;
+  border-radius: 0.3rem;
+  border: 1px solid #c1c5c8;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.password-input {
+  background-image: url(media/image/open-lock.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+}
+
+.form-section input:hover {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+input[type="submit"] {
+  background-color: #167ccc;
+  color: white;
+  font-size: 17px;
+  background-image: url(media/image/lock.png);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: 27% center;
+  width: 317.5px;
+  height: 45px;
+  border-radius: 4px;
+  margin: 0 0 30px 0;
+}
+
+.form-info {
+  text-align: center;
+  font-size: 12px;
+  padding: 0 20px;
+}
+
+.form-info > em {
+  color: lightseagreen;
+}
+
+.section-footer {
+  width: 100%;
+  height: 50px;
+  background-color: #eceef1;
+}
+
+.section-footer > p {
+  line-height: 50px;
+  text-align: center;
+  font-size: 10px;
+  color: rgb(81, 167, 162);
+}
+
+footer {
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0 0 0;
+}
+
+.footer-links > a {
+  text-decoration: none;
+  color: rgb(56, 105, 103);
+  font-size: 12px;
+  margin: 0 0 0 15px;
+}
+
+.footer-info {
+  width: 50%;
+  font-size: 12px;
+  color: rgb(56, 105, 103);
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+.privacy {
+  background-color: #6b6c72;
+  width: 135px;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+
+.privacy > p {
+  line-height: 40px;
+  text-align: center;
+  color: white;
+}

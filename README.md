@@ -2,7 +2,7 @@
 
 > This project consists of building an HTML document that matches the appearance of mint.com’s signup page.
 
-![screenshot](media/image/screenshot.png)
+![screenshot](media/screenshot.png)
 
 This project tried to clone the mint.com's signup page by using simple CSS and
 HTML.

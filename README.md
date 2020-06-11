@@ -2,7 +2,7 @@
 
 > This project consists of building an HTML document that matches the appearance of mint.com’s signup page.
 
-![screenshot]()
+![screenshot](media/image/screenshot.png)
 
 This project tried to clone the mint.com's signup page by using simple CSS and
 HTML.
@@ -15,7 +15,7 @@ HTML.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/Berabjesus/HTML-Forms/ca81dee61bb195662e34cbd77dc7589830667fd5/index.html)
 
 ## Authors
 

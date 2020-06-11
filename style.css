@@ -77,7 +77,7 @@ header {
   font-weight: 300;
   width: 10.4rem;
   height: 3.4rem;
-  background-image: url(assest/image/lock.png);
+  background-image: url(media/image/lock.png);
   background-repeat: no-repeat;
   background-size: 1rem 1.3rem;
   background-position: 17% 50%;
@@ -190,7 +190,7 @@ main {
 }
 
 .password-input {
-  background-image: url(assest/image/open-lock.png);
+  background-image: url(media/image/open-lock.png);
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: 95% 50%;
